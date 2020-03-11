@@ -1,0 +1,11 @@
+{
+  "name": "jest-summary-reporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/afalvella/jest-summary-reporter.git",
+  "author": "Alejandro Falvella <alfa20@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "istanbul-lib-coverage": "3.0.0"
+  }
+}
