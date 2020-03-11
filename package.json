@@ -1,5 +1,5 @@
 {
-  "name": "jest-summary-reporter",
+  "name": "jest-summary-reporters",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/afalvella/jest-summary-reporter.git",
