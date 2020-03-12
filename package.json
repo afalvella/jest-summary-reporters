@@ -1,6 +1,6 @@
 {
   "name": "jest-summary-reporters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/afalvella/jest-summary-reporter.git",
   "author": "Alejandro Falvella <alfa20@gmail.com>",
