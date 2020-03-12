@@ -16,11 +16,10 @@ class SummaryReporter {
 			coverageMap
 		} = results;
 
-		const map = libCoverage.createCoverageMap(coverageMap);
 		const summary = libCoverage.createCoverageSummary();
 
-		map.files().forEach(file => {
-			const fileCoverage = map.fileCoverageFor(file);
+		coverageMap.files().forEach(file => {
+			const fileCoverage = coverageMap.fileCoverageFor(file);
 			const fileCoverageSummary = fileCoverage.toSummary();
 			summary.merge(fileCoverageSummary);
 		});
